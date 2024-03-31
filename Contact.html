@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Contact.Css">
+</head>
+<body>
+    
+     <!--Navigation Bar-->
+
+     <nav>
+        <ul>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+   
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+            <div class="col-lg-6">
+            <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+            <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+            </iframe>
+            </div>
+            <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+            <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+            </style>
+            </div>
+                </div>
+
+
+                <form action="action_page.php">
+
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" placeholder="Name"><br>
+                    
+                    <label for="Email">Email:</label>
+                    <input type="text" id="email" placeholder="Email"><br>
+                    
+                    <label for="Subject">Subject:</label>
+                    <input type="text" id="Subject" placeholder="Subject"><br>
+                    
+                    <label for="Project Details">Project:</label>
+                    <input type="text" id="Project" placeholder="Project Details"><br>
+                    
+                    <input type="submit" value="Contact Me">
+                    
+                    </div>
+                    </form>
+
+                    <footer id="footer">
+                        <div class="container-fluid">
+                            <!-- social media icons -->
+                            <div class="social-icons mt-4">
+                                <a href="https://www.facebook.com/"><i class="facebook"></i></a>
+                                <a href="https://www.instagram.com/" ><i class="instagram"></i></a>
+                                <a href="https://www.twitter.com/" ><i class="twitter"></i></a>
+                            </div>
+                        </div>
+                    </footer>
+</body>
+</html>
+
+
+
+
+ 
+
+
+
+
+

@@ -1,0 +1,35 @@
+body{
+  background-image:url(Huvafen-Fushi-Sunrise-Dawn-Maldives-Overwater-Spa-Paul-Reiffer-Professional-Landscape-Photograph-Photographer-Pink-Blue-Sea-Ocean-Jetty-Wooden-Per-Aquum@2x.jpg); 
+  /* background-position:center; */ 
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    float:right;
+}
+
+a{
+    display:block;
+    padding:5px;
+    text-decoration:none;
+}
+
+h1{
+    text-align:center;
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+
+img{
+    width:100px;
+}
+
