@@ -25,3 +25,9 @@ h1{
 div{
     text-align: center;
 }
+
+
+nav :hover {
+    background-color: #ee8467;
+  }
+

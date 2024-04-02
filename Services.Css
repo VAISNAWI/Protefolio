@@ -22,29 +22,79 @@ a{
         text-align:center
     }
 
-    /* services section css */
-.servicesText.card {
+    img {
+        width: 60px;
+        height: 50px;
+        padding-top: 5px;
+        overflow-clip-margin: content-box;
+    
+    }
+
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+
+    p {
+        width: 350px;
+        position: relative;
+        text-align: justify;
+        right: 25px;
+        display: block;
+    }
+div{
+  width: 300px;
+  border:1 px solid black;
+  padding: 50px;
+  margin: 10px;
+}
+    
+.div2 {
+    width: 300px;
     height: 200px;
+    border: 2px solid rgb(0, 0, 0);
   }
 
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
+  .div1 {
+    width: 350px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .div3 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+  }
 
-.card-title {
-    text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #1d2426;
-}
+  .div4 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .div5 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .div6 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
 
-.servicesText:hover {
-    border: 1px solid #919394;
-}
-
-img{
-    width:110px;
-   
-}
+  
+nav :hover {
+    background-color: #ee8467;
+  }
+  
+  
